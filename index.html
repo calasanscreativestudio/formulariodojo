@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Briefing | Dojo Cassio Gomes · Calasans Creative Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+<style>
+:root{--g:#8FAE25;--gd:#566F0E;--au:#C79A2B;--bg:#F7F6EE;--card:#fff;--tx:#232618;--mu:#6B6F5C;--ln:#E2E1D2;--in:#FCFCF7;--hd:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--g:#A5C73A;--gd:#B7D45A;--au:#E0B342;--bg:#12150B;--card:#1B1F12;--tx:#EEF0E2;--mu:#A2A692;--ln:#323824;--in:#151909;--hd:#fff}}
+:root[data-theme="dark"]{--g:#A5C73A;--gd:#B7D45A;--au:#E0B342;--bg:#12150B;--card:#1B1F12;--tx:#EEF0E2;--mu:#A2A692;--ln:#323824;--in:#151909;--hd:#fff}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.55 Poppins,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:16px}
+header{background:#1B1E12;border-radius:16px;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:4px solid var(--au)}
+header img{height:38px;max-width:100%}
+header span{font-size:12px;font-weight:600;color:#C79A2B;letter-spacing:.08em;text-transform:uppercase}
+.intro{padding:22px 4px 8px}
+h1{font-size:26px;line-height:1.25;margin:0 0 8px;font-weight:700}
+h1 em{font-style:normal;color:var(--gd)}
+.intro p{margin:0;color:var(--mu)}
+.bar{height:8px;background:var(--ln);border-radius:99px;margin:18px 0 6px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--g),var(--au));transition:width .3s}
+.stp{font-size:13px;color:var(--mu);margin-bottom:12px}
+.card{background:var(--card);border:1px solid var(--ln);border-radius:16px;padding:22px 20px}
+.card h2{margin:0 0 4px;font-size:20px;color:var(--gd)}
+.card .sd{margin:0 0 18px;color:var(--mu);font-size:14px}
+.q{margin-bottom:20px}
+.q>label,.q>.lb{display:block;font-weight:600;font-size:15px;margin-bottom:4px}
+.q .h{font-size:13px;color:var(--mu);margin:0 0 8px}
+.req{color:var(--au)}
+input[type=text],input[type=email],input[type=tel],textarea,select{width:100%;font:inherit;color:var(--tx);background:var(--in);border:1.5px solid var(--ln);border-radius:10px;padding:11px 12px}
+textarea{min-height:96px;resize:vertical}
+input:focus,textarea:focus,select:focus{outline:none;border-color:var(--g);box-shadow:0 0 0 3px color-mix(in srgb,var(--g) 28%,transparent)}
+.opts{display:grid;gap:8px}
+.opt{display:flex;gap:10px;align-items:flex-start;background:var(--in);border:1.5px solid var(--ln);border-radius:10px;padding:10px 12px;cursor:pointer}
+.opt:has(input:checked){border-color:var(--g);background:color-mix(in srgb,var(--g) 14%,var(--in))}
+.opt input{margin-top:4px;accent-color:var(--gd);width:17px;height:17px;flex:none}
+.oth{margin-top:8px}
+.nav{display:flex;justify-content:space-between;gap:10px;margin-top:14px}
+button,.btn{font:inherit;font-weight:600;border:0;border-radius:99px;padding:12px 22px;cursor:pointer;text-decoration:none;display:inline-block;text-align:center}
+.pri{background:var(--g);color:#1d2408}
+.pri:hover{background:var(--au)}
+.sec{background:transparent;color:var(--tx);border:1.5px solid var(--ln)}
+button:disabled{opacity:.4;cursor:default}
+.fin{display:grid;gap:10px;margin:16px 0}
+pre{white-space:pre-wrap;word-break:break-word;background:var(--in);border:1px solid var(--ln);border-radius:10px;padding:14px;font:12.5px/1.5 ui-monospace,Menlo,Consolas,monospace;max-height:340px;overflow:auto}
+.note{font-size:13px;color:var(--mu)}
+footer{text-align:center;font-size:12px;color:var(--mu);padding:22px 0 10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZ4AAABQCAYAAAAp6RN/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAydpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDEwLjAtYzAwMCA3OS5kMjBlNDY2MzAsIDIwMjUvMTIvMDktMDI6MTE6MjMgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCAyNy41IChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4MzI1MzFGRjNBOEUxMUYxOEQ0OUZBRUJEQjBEQkU5NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo4MzI1MzIwMDNBOEUxMUYxOEQ0OUZBRUJEQjBEQkU5NyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjgzMjUzMUZEM0E4RTExRjE4RDQ5RkFFQkRCMERCRTk3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjgzMjUzMUZFM0E4RTExRjE4RDQ5RkFFQkRCMERCRTk3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+94u6LgAAKJ5JREFUeNrs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" alt="Calasans Creative Studio"><span>Briefing de projeto</span></header>
+<div class="intro">
+<h1>Vamos conhecer o <em>Dojo Cassio Gomes</em></h1>
+<p>Este questionário reúne o que precisamos para começar o trabalho de SEO e gestão de redes sociais. Leva cerca de 15 a 20 minutos. Nenhuma pergunta é obrigatória além do nome: responda o que souber, o resto conversamos depois. Suas respostas ficam salvas neste aparelho enquanto você preenche.</p>
+</div>
+<div class="bar"><i id="pb"></i></div>
+<div class="stp" id="st"></div>
+<div class="card" id="cd"></div>
+<div class="nav"><button class="sec" id="bk">← Voltar</button><button class="pri" id="nx">Continuar →</button></div>
+<footer>Calasans Creative Studio · Web, SEO e marketing digital</footer>
+</div>
+<script>
+var STUDIO_EMAIL="calasanscreativestudio@gmail.com",STUDIO_WHATS="5544991882239";
+var SIM=["Sim","Não","Em parte"];
+var S=[
+{t:"Sobre o dojo",d:"Quem é o dojo e como funciona hoje.",q:[
+{id:"resp",l:"Seu nome (responsável pelo preenchimento)",k:"text",req:1},
+{id:"cargo",l:"Seu papel no dojo",k:"text",ph:"Ex.: sensei, proprietário, gerente"},
+{id:"nome",l:"Nome oficial e nome pelo qual o dojo é conhecido",k:"text"},
+{id:"mod",l:"Modalidades e atividades oferecidas",k:"area",h:"Ex.: artes marciais, turmas infantis, treino funcional, aulas particulares."},
+{id:"fund",l:"Ano de fundação e história resumida",k:"area"},
+{id:"end",l:"Endereço completo (e se há mais de uma unidade)",k:"area"},
+{id:"hor",l:"Dias e horários das aulas",k:"area"},
+{id:"cont",l:"Telefone/WhatsApp e e-mail de contato do dojo",k:"area"},
+{id:"dif",l:"O que torna o dojo diferente dos demais?",k:"area",h:"Metodologia, graduações, resultados, ambiente, professores, tradição."},
+{id:"val",l:"Missão, valores e filosofia do dojo",k:"area"},
+{id:"eq",l:"Quem compõe a equipe de professores e instrutores?",k:"area",h:"Nome, graduação e destaque de cada um."}]},
+{t:"Público e alunos",d:"Para quem estamos comunicando.",q:[
+{id:"pub",l:"Quem são seus alunos hoje?",k:"multi",o:["Crianças (até 12 anos)","Adolescentes","Adultos","Mulheres","Terceira idade","Atletas/competidores","Iniciantes"],oth:1},
+{id:"ideal",l:"Quem é o aluno ideal que você quer atrair?",k:"area"},
+{id:"num",l:"Quantos alunos ativos tem hoje e quantos comporta?",k:"text"},
+{id:"preco",l:"Faixa de mensalidade e planos oferecidos",k:"area"},
+{id:"vem",l:"Como os alunos chegam até você hoje?",k:"multi",o:["Indicação","Instagram","Facebook","Google/Maps","Site","Panfleto/ação local","Escolas/parceiros","Aula experimental"],oth:1},
+{id:"obj",l:"Quais dúvidas ou objeções os interessados mais têm?",k:"area",h:"Ex.: segurança, preço, idade mínima, horário, medo de começar."},
+{id:"sai",l:"Por que alunos costumam deixar o dojo?",k:"area"},
+{id:"exp",l:"Oferece aula experimental gratuita?",k:"radio",o:["Sim","Não","Às vezes"]},
+{id:"dep",l:"Depoimentos ou resultados de alunos que podemos usar",k:"area"}]},
+{t:"Concorrência e mercado",d:"Seu entorno e as referências do setor.",q:[
+{id:"conc",l:"Quais academias ou dojos concorrem com você na região?",k:"area",h:"Nome e, se possível, link do site ou Instagram."},
+{id:"reg",l:"Quais cidades e bairros você quer alcançar?",k:"area"},
+{id:"ref",l:"Perfis ou sites que você admira, do setor ou não",k:"area"},
+{id:"sazo",l:"Há épocas de pico ou queda de matrículas?",k:"area",h:"Ex.: início do ano, volta às aulas, férias, campeonatos."}]},
+{t:"Presença digital atual",d:"O que já existe online.",q:[
+{id:"site",l:"O dojo tem site?",k:"radio",o:["Sim, próprio","Sim, mas desatualizado","Não tem"]},
+{id:"url",l:"Endereço do site e do domínio (quem o registrou?)",k:"area"},
+{id:"gbp",l:"Perfil no Google Meu Negócio (Google Maps)",k:"radio",o:["Já existe e tenho acesso","Existe, sem acesso","Não existe","Não sei"]},
+{id:"redes",l:"Redes sociais ativas hoje",k:"multi",o:["Instagram","Facebook","TikTok","YouTube","WhatsApp Business","LinkedIn","Nenhuma"],oth:1},
+{id:"perf",l:"Links ou @ de cada perfil",k:"area"},
+{id:"acess",l:"Você terá acesso (ou o administrador) às contas para compartilhar com a agência?",k:"radio",o:SIM},
+{id:"ana",l:"Usa Google Analytics, Search Console, Meta Pixel ou anúncios pagos?",k:"area"},
+{id:"ant",l:"Já teve agência ou freelancer? Como foi a experiência?",k:"area"}]},
+{t:"SEO e busca no Google",d:"Como você quer ser encontrado.",q:[
+{id:"kw",l:"O que uma pessoa digitaria no Google para encontrar você?",k:"area",h:"Ex.: aulas de karatê em [cidade], jiu-jitsu infantil perto de mim."},
+{id:"pag",l:"Quais páginas ou conteúdos o site deveria ter?",k:"multi",o:["Modalidades","Horários e valores","Sobre/história","Professores","Galeria de fotos e vídeos","Blog","Agendamento de aula experimental","Eventos e campeonatos","Depoimentos"],oth:1},
+{id:"rev",l:"Como está a quantidade e a nota das avaliações no Google?",k:"area"},
+{id:"pedir",l:"Costuma pedir avaliações aos alunos?",k:"radio",o:SIM},
+{id:"conv",l:"Qual é a principal ação que deseja do visitante?",k:"radio",o:["Chamar no WhatsApp","Agendar aula experimental","Ligar","Visitar o dojo","Preencher formulário"]}]},
+{t:"Redes sociais e conteúdo",d:"Voz, estilo e rotina de produção.",q:[
+{id:"plat",l:"Em quais redes deseja focar?",k:"multi",o:["Instagram","Facebook","TikTok","YouTube","LinkedIn"],oth:1},
+{id:"tom",l:"Como a comunicação deve soar?",k:"multi",o:["Tradicional e respeitosa","Inspiradora e motivacional","Descontraída","Técnica e educativa","Familiar e acolhedora","Competitiva"]},
+{id:"cont2",l:"Que tipos de conteúdo quer ver?",k:"multi",o:["Treinos e técnicas","Bastidores","Graduações e exames","Eventos e campeonatos","Depoimentos","Dicas de saúde e disciplina","Apresentação de professores","Promoções e matrículas"],oth:1},
+{id:"freq",l:"Frequência de postagens desejada",k:"radio",o:["1 a 2 por semana","3 a 4 por semana","Diária","Deixo para vocês sugerirem"]},
+{id:"mat",l:"Quem produz fotos e vídeos?",k:"radio",o:["Já tenho um acervo bom","Eu mesmo, no celular","Preciso de captação profissional","Misto"]},
+{id:"img",l:"Há autorização de uso de imagem de alunos, inclusive menores?",k:"radio",o:["Sim, documentada","Parcial","Não","Não sei"]},
+{id:"nao",l:"O que NÃO pode aparecer na comunicação?",k:"area",h:"Temas, termos, imagens ou posturas a evitar."},
+{id:"dest",l:"Datas importantes do calendário do dojo",k:"area",h:"Exames de faixa, campeonatos, aniversário do dojo, eventos."},
+{id:"ads",l:"Pretende investir em anúncios pagos?",k:"radio",o:["Sim","Talvez no futuro","Não"]},
+{id:"verba",l:"Verba mensal estimada para anúncios (se houver)",k:"text"}]},
+{t:"Identidade visual",d:"Marca e materiais disponíveis.",q:[
+{id:"logo",l:"Logotipo e manual de marca",k:"radio",o:["Tenho logo e manual","Tenho só o logo","Preciso criar ou renovar"]},
+{id:"cor",l:"Cores, fontes e estilo que representam o dojo",k:"area"},
+{id:"mats",l:"Materiais existentes que podemos receber",k:"multi",o:["Logo em alta resolução","Fotos","Vídeos","Fotos de eventos","Panfletos","Textos institucionais"]},
+{id:"gost",l:"Estilo visual de que gosta (e do que não gosta)",k:"area"}]},
+{t:"Objetivos e metas",d:"O que significa sucesso para você.",q:[
+{id:"meta",l:"Principais objetivos com o trabalho",k:"multi",o:["Mais matrículas","Mais aulas experimentais","Fortalecer a marca","Aparecer no Google","Reter alunos","Divulgar eventos","Comunidade engajada"],oth:1},
+{id:"num2",l:"Meta concreta para os próximos 6 meses",k:"area",h:"Ex.: 20 novos alunos, 100 avaliações, 5 mil seguidores."},
+{id:"prazo",l:"Quando deseja começar e ver os primeiros resultados?",k:"text"},
+{id:"sucesso",l:"Como você vai medir se o trabalho deu certo?",k:"area"}]},
+{t:"Fluxo de trabalho",d:"Como vamos trabalhar juntos.",q:[
+{id:"apr",l:"Quem aprova as publicações?",k:"text"},
+{id:"prazoap",l:"Prazo de resposta para aprovações",k:"radio",o:["Até 24 horas","Até 48 horas","Até 1 semana"]},
+{id:"canal",l:"Melhor canal e horário para falar com você",k:"text"},
+{id:"rel",l:"Frequência desejada de relatórios e reuniões",k:"radio",o:["Semanal","Quinzenal","Mensal"]},
+{id:"extra",l:"Mais alguma coisa que devemos saber?",k:"area"}]}
+];
+var A={},cur=0,KEY="briefing-dojo-cassio-gomes";
+try{var sv=localStorage.getItem(KEY);if(sv)A=JSON.parse(sv)||{}}catch(e){}
+function sav(){try{localStorage.setItem(KEY,JSON.stringify(A))}catch(e){}}
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+var cd=document.getElementById("cd"),pb=document.getElementById("pb"),st=document.getElementById("st"),bk=document.getElementById("bk"),nx=document.getElementById("nx");
+function qh(q){
+ var v=A[q.id],h='<div class="q"><'+(q.k=="multi"||q.k=="radio"?'div class="lb"':'label for="'+q.id+'"')+'>'+esc(q.l)+(q.req?' <span class="req">*</span>':'')+'</'+(q.k=="multi"||q.k=="radio"?'div':'label')+'>'+(q.h?'<p class="h">'+esc(q.h)+'</p>':'');
+ if(q.k=="text")h+='<input type="text" id="'+q.id+'" value="'+esc(v)+'" placeholder="'+esc(q.ph||"")+'" data-id="'+q.id+'">';
+ else if(q.k=="area")h+='<textarea id="'+q.id+'" data-id="'+q.id+'">'+esc(v)+'</textarea>';
+ else{h+='<div class="opts">';q.o.forEach(function(o,i){var on=q.k=="multi"?(v||[]).indexOf(o)>-1:v===o;h+='<label class="opt"><input type="'+(q.k=="multi"?"checkbox":"radio")+'" name="'+q.id+'" value="'+esc(o)+'" data-id="'+q.id+'"'+(on?" checked":"")+'><span>'+esc(o)+'</span></label>'});h+='</div>';
+ if(q.oth)h+='<input type="text" class="oth" placeholder="Outro (descreva)" data-oth="'+q.id+'" value="'+esc(A[q.id+"_o"])+'">'}
+ return h+'</div>'}
+function show(){
+ var n=S.length;pb.style.width=(cur/(n)*100)+"%";bk.disabled=cur==0;
+ if(cur>=n){fin();return}
+ var s=S[cur];st.textContent="Etapa "+(cur+1)+" de "+n;
+ cd.innerHTML='<h2>'+esc(s.t)+'</h2><p class="sd">'+esc(s.d)+'</p>'+s.q.map(qh).join("");
+ nx.style.display="";nx.textContent=cur==n-1?"Revisar e enviar →":"Continuar →";window.scrollTo(0,0)}
+cd.addEventListener("input",function(e){var t=e.target,id=t.dataset.id,o=t.dataset.oth;
+ if(o){A[o+"_o"]=t.value}else if(id){if(t.type=="checkbox"){var a=A[id]||[];var i=a.indexOf(t.value);if(t.checked&&i<0)a.push(t.value);if(!t.checked&&i>-1)a.splice(i,1);A[id]=a}else A[id]=t.value}
+ sav()});
+function txt(){
+ var out="BRIEFING DE SEO E REDES SOCIAIS\nCliente: Dojo Cassio Gomes\nPreenchido por: "+(A.resp||"(não informado)")+"\n";
+ S.forEach(function(s){var b="";s.q.forEach(function(q){var v=A[q.id];if(Array.isArray(v))v=v.join(", ");var o=A[q.id+"_o"];if(o)v=(v?v+", ":"")+o;if(v&&String(v).trim())b+="\n• "+q.l+"\n  "+String(v).trim().replace(/\n/g,"\n  ")+"\n"});
+  if(b)out+="\n=== "+s.t.toUpperCase()+" ===\n"+b});
+ return out}
+function fin(){
+ st.textContent="Tudo pronto";nx.style.display="none";pb.style.width="100%";
+ var t=txt();
+ cd.innerHTML='<h2>Obrigado'+(A.resp?", "+esc(A.resp.split(" ")[0]):"")+'!</h2><p class="sd">Confira o resumo abaixo e envie suas respostas para a equipe da Calasans Creative Studio por um dos botões.</p><pre id="pr">'+esc(t)+'</pre><div class="fin"><button class="pri" id="cp">Copiar respostas</button><a class="btn sec" id="wa" target="_blank" rel="noopener">Enviar por WhatsApp</a><a class="btn sec" id="em">Enviar por e-mail</a><button class="sec" id="dl" style="display:none">Baixar arquivo (.txt)</button></div><p class="note">Dica: copie as respostas e cole na conversa com a equipe. Você pode voltar e ajustar qualquer etapa antes de enviar.</p>';
+ document.getElementById("wa").href="https://wa.me/"+STUDIO_WHATS+"?text="+encodeURIComponent(t);
+ document.getElementById("em").href="mailto:"+STUDIO_EMAIL+"?subject="+encodeURIComponent("Briefing Dojo Cassio Gomes")+"&body="+encodeURIComponent(t);
+ document.getElementById("cp").onclick=function(){var b=this;function ok(){b.textContent="Copiado ✓"}try{navigator.clipboard.writeText(t).then(ok,function(){sel()})}catch(e){sel()}
+  function sel(){var r=document.createRange();r.selectNodeContents(document.getElementById("pr"));var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent="Texto selecionado: use Copiar do aparelho"}};
+ if(window.claude&&claude.use)claude.use("downloads").then(function(d){if(!d)return;var b=document.getElementById("dl");if(!b)return;b.style.display="";b.onclick=function(){d.save({filename:"briefing-dojo-cassio-gomes.txt",data:t}).catch(function(){})}}).catch(function(){})}
+nx.onclick=function(){if(cur==0&&!(A.resp||"").trim()){var i=document.getElementById("resp");i.focus();i.style.borderColor="var(--au)";return}cur++;show()};
+bk.onclick=function(){if(cur>0){cur--;show()}};
+show();
+</script>
+</body>
+</html>
